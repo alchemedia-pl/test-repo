@@ -1,0 +1,12 @@
+{
+  "repository": "@alchemedia/test-repo",
+  "head": "specifyrc-json",
+  "base": "main",
+  "rules": [
+    {
+      "name": "Extract all tokens to JSON",
+      "path": "./output/all-tokens.json",
+      "parsers": []
+    }
+  ]
+}
